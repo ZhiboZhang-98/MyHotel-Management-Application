@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		870BDAD92367A538006D7966 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 870BDAD82367A538006D7966 /* Person.m */; };
+		870BDADB2367A5D2006D7966 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 870BDADA2367A5D2006D7966 /* Customer.m */; };
+		870BDADD2367B0B8006D7966 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 870BDADC2367B0B8006D7966 /* Employee.m */; };
+		870BDADF2367B55D006D7966 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 870BDADE2367B55D006D7966 /* Room.m */; };
+		872794572366784D00C57ECD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 872794562366784D00C57ECD /* main.m */; };
+		877DA048239DA4C80009588B /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 877DA047239DA4C80009588B /* Service.m */; };
+		877DA04B239DA7160009588B /* Reservation.m in Sources */ = {isa = PBXBuildFile; fileRef = 877DA04A239DA7160009588B /* Reservation.m */; };
+		877DA04E239DA8E40009588B /* ReservedRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 877DA04D239DA8E40009588B /* ReservedRoom.m */; };
+		877DA051239DAA8F0009588B /* WaitingCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 877DA050239DAA8F0009588B /* WaitingCustomer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		872794512366784D00C57ECD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		870BDAD423678978006D7966 /* Customer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		870BDAD523678A2B006D7966 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		870BDAD6236796FB006D7966 /* Employee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		870BDAD72367A0F9006D7966 /* Room.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		870BDAD82367A538006D7966 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		870BDADA2367A5D2006D7966 /* Customer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		870BDADC2367B0B8006D7966 /* Employee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		870BDADE2367B55D006D7966 /* Room.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		872794532366784D00C57ECD /* MyHotel Management */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MyHotel Management"; sourceTree = BUILT_PRODUCTS_DIR; };
+		872794562366784D00C57ECD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		877DA046239DA35B0009588B /* Service.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		877DA047239DA4C80009588B /* Service.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
+		877DA049239DA6040009588B /* Reservation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reservation.h; sourceTree = "<group>"; };
+		877DA04A239DA7160009588B /* Reservation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reservation.m; sourceTree = "<group>"; };
+		877DA04C239DA82B0009588B /* ReservedRoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReservedRoom.h; sourceTree = "<group>"; };
+		877DA04D239DA8E40009588B /* ReservedRoom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReservedRoom.m; sourceTree = "<group>"; };
+		877DA04F239DA9E80009588B /* WaitingCustomer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaitingCustomer.h; sourceTree = "<group>"; };
+		877DA050239DAA8F0009588B /* WaitingCustomer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaitingCustomer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		872794502366784D00C57ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8727944A2366784D00C57ECD = {
+			isa = PBXGroup;
+			children = (
+				872794552366784D00C57ECD /* MyHotel Management */,
+				872794542366784D00C57ECD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		872794542366784D00C57ECD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				872794532366784D00C57ECD /* MyHotel Management */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		872794552366784D00C57ECD /* MyHotel Management */ = {
+			isa = PBXGroup;
+			children = (
+				872794562366784D00C57ECD /* main.m */,
+				870BDAD423678978006D7966 /* Customer.h */,
+				870BDAD523678A2B006D7966 /* Person.h */,
+				870BDAD6236796FB006D7966 /* Employee.h */,
+				870BDAD72367A0F9006D7966 /* Room.h */,
+				870BDAD82367A538006D7966 /* Person.m */,
+				870BDADA2367A5D2006D7966 /* Customer.m */,
+				870BDADC2367B0B8006D7966 /* Employee.m */,
+				870BDADE2367B55D006D7966 /* Room.m */,
+				877DA046239DA35B0009588B /* Service.h */,
+				877DA047239DA4C80009588B /* Service.m */,
+				877DA049239DA6040009588B /* Reservation.h */,
+				877DA04A239DA7160009588B /* Reservation.m */,
+				877DA04C239DA82B0009588B /* ReservedRoom.h */,
+				877DA04D239DA8E40009588B /* ReservedRoom.m */,
+				877DA04F239DA9E80009588B /* WaitingCustomer.h */,
+				877DA050239DAA8F0009588B /* WaitingCustomer.m */,
+			);
+			path = "MyHotel Management";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		872794522366784D00C57ECD /* MyHotel Management */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8727945A2366784D00C57ECD /* Build configuration list for PBXNativeTarget "MyHotel Management" */;
+			buildPhases = (
+				8727944F2366784D00C57ECD /* Sources */,
+				872794502366784D00C57ECD /* Frameworks */,
+				872794512366784D00C57ECD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyHotel Management";
+			productName = "MyHotel Management";
+			productReference = 872794532366784D00C57ECD /* MyHotel Management */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8727944B2366784D00C57ECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Zhibo Zhang";
+				TargetAttributes = {
+					872794522366784D00C57ECD = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 8727944E2366784D00C57ECD /* Build configuration list for PBXProject "MyHotel Management" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8727944A2366784D00C57ECD;
+			productRefGroup = 872794542366784D00C57ECD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				872794522366784D00C57ECD /* MyHotel Management */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8727944F2366784D00C57ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877DA04B239DA7160009588B /* Reservation.m in Sources */,
+				870BDADF2367B55D006D7966 /* Room.m in Sources */,
+				870BDAD92367A538006D7966 /* Person.m in Sources */,
+				870BDADD2367B0B8006D7966 /* Employee.m in Sources */,
+				870BDADB2367A5D2006D7966 /* Customer.m in Sources */,
+				872794572366784D00C57ECD /* main.m in Sources */,
+				877DA04E239DA8E40009588B /* ReservedRoom.m in Sources */,
+				877DA048239DA4C80009588B /* Service.m in Sources */,
+				877DA051239DAA8F0009588B /* WaitingCustomer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		872794582366784D00C57ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		872794592366784D00C57ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8727945B2366784D00C57ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8727945C2366784D00C57ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8727944E2366784D00C57ECD /* Build configuration list for PBXProject "MyHotel Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872794582366784D00C57ECD /* Debug */,
+				872794592366784D00C57ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8727945A2366784D00C57ECD /* Build configuration list for PBXNativeTarget "MyHotel Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8727945B2366784D00C57ECD /* Debug */,
+				8727945C2366784D00C57ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8727944B2366784D00C57ECD /* Project object */;
+}
